@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>911 GT3</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-tops ">
+      <a class="navbar-brand" href="#"><img src="_img/porsche-vector-logo.svg" alt="PORSCHE" class="w-50"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destaques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Preços</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Modelos
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">718 Cayman</a>
+              <a class="dropdown-item" href="#">911 Turbo S</a>
+              <a class="dropdown-item" href="#">911 GT3 RS</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="_img/gt3RS1.webp" alt="911 GT3 RS">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Porsche 911</h5>
+            <p>GT3 RS 992</p>
+            <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">Saiba mais!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="_img/turboS.webp" alt="911 TurboS ">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Porsche 911</h5>
+            <p>TurboS 992</p>
+            <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">Saiba mais!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="_img/718.webp" alt="Terceiro Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Porsche 718</h5>
+            <p>Cayman</p>
+            <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">Saiba mais!</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+
+    <div class="container card-m ">
+      <h1 class="text-center text-font mb-5">Modelos</h1>
+      <div class="row">
+        <div class="col-md p-3">
+          <div class="card hover-zoom border-0 img-card bg-dark text-white">
+            <img class="card-img img-card" src="_img/718_Carrange.webp" alt="Imagem do card">
+            <div class="card-img-overlay">
+              <h1>718</h1>
+            </div>
+            <div class="card-img-overlay text-card mx-3"><span>Dois lugares com alta dinâmica de condução graças ao seu
+                motor central.</span></div>
+
+          </div>
+        </div>
+
+        <div class="col-md p-3">
+          <div class="card bg-dark hover-zoom border-0 img-card text-white ">
+            <img class="card-img img-card" src="_img/911_Carrange.webp" alt="Imagem do card">
+            <div class="card-img-overlay">
+              <h1>911</h1>
+            </div>
+            <div class="card-img-overlay mx-3 text-card"><span>Icônico carro esportivo com motor montado na traseira e
+                desempenho superior.</span></div>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+        <div class="col-md p-3">
+          <div class="card bg-dark hover-zoom border-0 img-card text-white">
+            <img class="card-img img-card" src="_img/Cayenne_Carrange.webp" alt="Imagem do card">
+            <div class="card-img-overlay">
+              <h1>Cayenne</h1>
+            </div>
+            <div class="card-img-overlay mx-3 text-card"><span>SUV com até 5 assentos, mas antes de tudo, um carro
+                esportivo.</span></div>
+
+
+          </div>
+        </div>
+
+        <div class="col-md p-3 ">
+          <div class="card bg-dark border-0 img-card hover-zoom text-white">
+            <img class="card-img img-card" src="_img/Macan_Carrange.webp" alt="">
+            <div class="card-img-overlay">
+              <h1>Macan</h1>
+            </div>
+            <div class="card-img-overlay text-center text-card"><span>SUV compacto com alta versatilidade.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container card-m ">
+        <h1 class="text-center text-font mb-5">Descubra</h1>
+        <div class="row">
+          <div class="col-md p-4">
+            <div class="card hover-zoom border-0 img-card bg-dark text-white">
+              <img class="card-img img-card" src="_img/E-Performance_1200x1200.webp" alt="Imagem do card">
+              <div class="card-img-overlay text-card-mini mx-3"><span>E-Performace</span></div>
+              <div class="m-style">
+                <button type="button" class="btn btn-link card-img-overlay" data-toggle="modal" data-target="#modalExemplo"></button>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md p-4">
+            <div class="card bg-dark hover-zoom border-0 img-card text-white ">
+              <img class="card-img img-card" src="_img/Tequipment_1200x1200.webp" alt="Imagem do card">
+              <div class="card-img-overlay mx-3 text-card-mini"><span>Tequipment Sound & Design</span></div>
+              <div class="m-style">
+                <button type="button" class="btn btn-link card-img-overlay" data-toggle="modal" data-target="#modalExemplo"></button>
+                </div>
+            </div>
+          </div>
+
+          <div></div>
+          <div class="col-md p-4">
+            <div class="card bg-dark hover-zoom border-0 img-card text-white">
+              <img class="card-img img-card" src="_img/Finder_1200x1200.webp" alt="Imagem do card">
+              <div class="card-img-overlay mx-3 text-card-mini"><span>Porsche Finder</span></div>
+              <div class="m-style">
+                <button type="button" class="btn btn-link card-img-overlay" data-toggle="modal" data-target="#modalExemplo"></button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <section>
+        <!-- Modal -->
+        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <button><i class="fa-solid fa-gear fa-xl"></i></button>
+  </main>
+  <!-- Footer -->
+  <footer class="page-footer font-small blue position-static ">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2023 Copyright:
+      <a href="https://www.porsche.com/brazil/pt/"> Porsche</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
